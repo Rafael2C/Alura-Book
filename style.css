@@ -1,0 +1,33 @@
+/* Background decorado para seções */
+.hero {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+/* Cards com bordas decoradas */
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+.card img:hover {
+    transform: scale(1.05);
+}
+
+/* Imagens dos serviços */
+.service img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Rodapé decorado */
+.footer {
+    background: linear-gradient(to right, #282c34, #0078d7);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
